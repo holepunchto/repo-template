@@ -11,8 +11,8 @@
     }
   },
   "files": [
-    "./package.json",
-    "./index.js",
+    "package.json",
+    "index.js",
     "index.d.ts"
   ],
   "devDependencies": {
