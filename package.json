@@ -6,6 +6,10 @@
   "exports": {
     "./package": "./package.json"
   },
+  "files": [
+    "./package.json",
+    "./index.js"
+  ],
   "devDependencies": {
     "brittle": "^3.19.0",
     "lunte": "^1.2.0",
