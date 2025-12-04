@@ -4,11 +4,16 @@
   "description": "repo-template",
   "main": "index.js",
   "exports": {
-    "./package": "./package.json"
+    "./package": "./package.json",
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
   },
   "files": [
     "./package.json",
-    "./index.js"
+    "./index.js",
+    "index.d.ts"
   ],
   "devDependencies": {
     "brittle": "^3.19.0",
