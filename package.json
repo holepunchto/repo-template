@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "repo-template",
   "main": "index.js",
+  "exports": {
+    "./package": "./package.json"
+  },
   "devDependencies": {
     "brittle": "^3.19.0",
     "lunte": "^1.2.0",
