@@ -1,7 +1,7 @@
 {
-  "name": "namespaced-native",
+  "name": "@holepunchto/repo-template",
   "version": "0.0.1",
-  "description": "Namespaced tenants over rocksdb-native",
+  "description": "repo-template",
   "main": "index.js",
   "exports": {
     "./package": "./package.json",
@@ -35,9 +35,5 @@
   "bugs": {
     "url": "https://github.com/holepunchto/repo-template/issues"
   },
-  "homepage": "https://github.com/holepunchto/repo-template",
-  "dependencies": {
-    "b4a": "^1.8.1",
-    "rocksdb-native": "^3.15.1"
-  }
+  "homepage": "https://github.com/holepunchto/repo-template"
 }
